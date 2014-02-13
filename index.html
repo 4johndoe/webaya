@@ -1,18 +1,127 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Веб от А до Я!</title>	
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="js/script.js"></script>
-	</head>
-	<body>
-		<h1>Веб от А до Я!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 
-		<iframe width="560" height="315" src="http://www.youtube.com/embed/jCKO7Pya6S8?list=PLgMaGEI-ZiiZ0ZvUtduoDRVXcU5ELjPcI" frameborder="0" allowfullscreen></iframe>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.min.css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'> -->
 
-		<iframe src="http://player.vimeo.com/video/82002213?title=0&amp;byline=0&amp;portrait=0&amp;color=fd0000" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/82002213">Zombillenium Short (SkipTheUse: Nameless World)</a> from <a href="http://vimeo.com/user8225865">DreamWall</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<style>
+		body{
+			/*font-family: 'Lobster';*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="header" class="col-sm-12">
+				<img src="http://uaservice.com.ua/images/888.png" width="100%">
 
-	</body>
+				<nav class="navbar navbar-default" role="navigation">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">UP</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">О нас</a></li>
+				        <li><a href="#">Новости</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Лекции <b class="caret"></b></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">One more separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="navbar-form navbar-left" role="search">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+				      </form>
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#">Link</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Action</a></li>
+				            <li><a href="#">Another action</a></li>
+				            <li><a href="#">Something else here</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+
+			
+		</div>
+		<div class="row">
+			<div class="jumbotron">
+			  <h1>Покупай товар у нас!</h1>
+			  <p>По самой низкой цене</p>
+			  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+			<div id="content" class="col-md-8">
+			
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quo assumenda qui voluptate harum similique blanditiis eveniet quod! Iure, adipisci ea soluta eos dicta cupiditate facilis pariatur et numquam quibusdam!							
+			</div>
+			<div id="sidebar" class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, beatae, ex, molestias facilis nemo quisquam tempore cum pariatur facere iusto expedita consequatur magnam sed vitae sapiente incidunt recusandae iste culpa!
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, hic, temporibus, magnam cum quod rem vero rerum nesciunt recusandae quidem tempore placeat nemo ea nobis consequatur doloremque repellendus. Esse, recusandae.</div>
+			<div class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, a, unde, non, tempore fuga dolor rerum fugit quisquam ipsam maxime odio rem omnis saepe asperiores ab illo nulla labore deserunt.</div>
+			<div class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, illo a laborum repudiandae dolores vero aliquid! Doloremque, quis magnam deserunt quisquam aliquid amet dolorum dolor cum alias atque vitae aliquam.</div>
+		</div>
+
+			<script type="text/javascript">(function() {
+			  if (window.pluso)if (typeof window.pluso.start == "function") return;
+			  if (window.ifpluso==undefined) { window.ifpluso = 1;
+			    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+			    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+			    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+			    var h=d[g]('body')[0];
+			    h.appendChild(s);
+			  }})();</script>
+			<div class="pluso" data-background="transparent" data-options="big,square,line,horizontal,nocounter,theme=01" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
+
+		<div class="row">
+			<div id="footer" class="col-md-12"></div>
+		</div>
+	</div>
+</body>
 </html>
